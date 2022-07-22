@@ -3,3 +3,186 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* Header */
+
+.headermain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 257px;
+    height: 77px;
+    position: relative;
+    border-bottom: 1px solid #E9ECEF;
+}
+
+.logodiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 77px;
+}
+
+.logodiv img {
+    width: 121px;
+}
+
+.lefticon {
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.searching {
+    margin-left: 32px;
+    position: relative;
+}
+
+.searching input {
+    width: 304px;
+    background: #FFFFFF;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    padding: 8px 16px 8px 48px;
+    color: #ADB5BD;
+}
+
+.searching img {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translate(-50%, -50%);
+}
+
+.searching input::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ADB5BD;
+}
+
+.searching input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+}
+
+.proitem {
+    margin-right: 20px;
+}
+
+.profilediv {
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+}
+
+.profilediv img {
+    margin-right: 16px;
+}
+
+.proname h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #232D42;
+    margin-bottom: 0;
+}
+
+.proname p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #8A92A6;
+    margin-bottom: 0;
+}
+
+
+
+
+
+/* Dashboard */
+
+.mystyle {
+    display: none;
+}
+
+.dashmenumain {
+    height: 100%;
+    width: 257px;
+    float: left;
+    padding-bottom: 200px;
+    transition: 0.3s;
+}
+
+.dashtitle {
+    margin: 24px 0 16px 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ADB5BD;
+}
+
+.dashitem {
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 4px;
+    margin: 0 12px;
+    margin-bottom: 11px;
+    color: #8A92A6;
+}
+
+.dashitem img {
+    margin-right: 16px;
+}
+
+.dashitem p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.dashactive {
+    color: white;
+    background: #3A57E8;
+    box-shadow: 0px 2px 4px rgba(138, 146, 166, 0.3);
+}
+
+.dashmenumain hr {
+    margin: 0 26px;
+    background: #E9ECEF;
+    height: 1px;
+}
+
+.dashtitle2 {
+    margin: 16px 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ADB5BD;
+}
